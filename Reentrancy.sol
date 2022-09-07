@@ -56,3 +56,4 @@ contract Hacker {
 // IMPORTANT: before 0.8.0, there were no checks for underflow/overflow due to which
 // it was possible to perform such hacks, after 0.8.0. there are panic attacks which
 // internally check and revert. (deploy same contract with ^0.8.0, it will revert!)
+// Although we can still override this with unchecked{} scope in solidity which ignores overflow/underflow check
